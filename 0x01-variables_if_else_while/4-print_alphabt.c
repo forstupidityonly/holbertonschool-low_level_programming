@@ -7,9 +7,9 @@ int main(void)
 {
 	int i;
 
-	for (i = 97; i < 123; i++)
+	for(i = 97; i < 123; i++)
 	{
-		if (i == 113 || al == 101)
+		if(i == 113 || i  == 101)
 			i = i;
 		else
 			putchar (i);
