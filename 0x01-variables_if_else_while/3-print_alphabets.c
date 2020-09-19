@@ -5,8 +5,12 @@
   */
 int main(void)
 {
-	int i;
+	int lower, upper;
 
-	
+	for (lower = 'a'; lower <= 'z'; lower++)
+		putchar(lower);
+	for (upper = 'A'; upper <= 'Z'; upper++)
+		putchar(upper);
+	putchar('\n');
 	return (0);
 }
