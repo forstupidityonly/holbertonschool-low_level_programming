@@ -9,9 +9,10 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		if (i == '113' || al == '101')
-			i++;
-		putchar(i);
+		if (i == 113 || al == 101)
+			i = i;
+		else
+			putchar(i);
 	}
 	putchar('\n');
 	return (0);
