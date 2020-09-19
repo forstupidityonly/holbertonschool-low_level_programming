@@ -12,8 +12,8 @@ int main(void)
 		if (i == 113 || al == 101)
 			i = i;
 		else
-			putchar(i);
+			putchar (i);
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
