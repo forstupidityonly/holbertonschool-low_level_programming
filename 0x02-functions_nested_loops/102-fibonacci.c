@@ -6,8 +6,8 @@
 void main(void)
 {
 	unsigned long n = 50;
-	unsigned long f1 = 0;
-	unsigned long f2 = 1;
+	unsigned long f1 = 1;
+	unsigned long f2 = 2;
 	unsigned long i, next;
 
 	printf("1");
