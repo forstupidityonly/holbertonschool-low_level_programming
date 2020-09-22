@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
   * _abs - absolute val
-  * @int: int we use
+  * @a: int we use
   * Return: the abs of int
   */
 int _abs(int a)
