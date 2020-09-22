@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * mian - entry point
+  * main - entry point
   * Return: no
   */
 void main(void)
@@ -17,9 +17,9 @@ void main(void)
 		f1 = f2;
 		f2 = j;
 		if (i == 50)
-			printf("%ld", f);
+			printf("%ld", f2);
 		else
-			printf("%ld, ", f);
+			printf("%ld, ", f2);
 	}
 	printf("\n");
 }
