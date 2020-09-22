@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
-  *
+  * times_table - print 9x9
+  * Return: no
   */
 void times_table(void)
 {
@@ -18,16 +19,16 @@ void times_table(void)
 			}
 			if (n >= 10)
 			{
-				_putchar((n/10) + '0');
-				_putchar((n%10) + '0');
+				_putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
 			}
 			else if (n < 10 && j != 0)
 			{
 				_putchar(' ');
-				_putchar((n%10) + '0');
+				_putchar((n % 10) + '0');
 			}
 			else
-				_putchar((n%10) + '0');
+				_putchar((n % 10) + '0');
 		}
 		_putchar('\n');
 	}
