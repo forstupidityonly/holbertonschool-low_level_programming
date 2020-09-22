@@ -5,17 +5,21 @@
   */
 void main(void)
 {
-	unsigned long i, f1, f2, j;
+	unsigned long f1, f2, j;
+	int i;
 
 	f1 = 1;
 	f2 = 2;
-	printf("1");
-	for (i = 1; i < 50; i++)
+	printf("%ld, %ld, ", f1, f2);
+	for (i = 0; i < 50; i++)
 	{
-		printf(", %ld", f2);
-		j = f1;
+		j = f1 + f2;
 		f1 = f2;
-		f2 = j + f2;
+		f2 = j;
+		if (i == 50)
+			printf("%ld", f);
+		else
+			printf("%ld, ", f);
 	}
 	printf("\n");
 }
