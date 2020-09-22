@@ -5,18 +5,17 @@
   */
 void main(void)
 {
-	unsigned long n = 50;
-	unsigned long f1 = 1;
-	unsigned long f2 = 2;
-	unsigned long i, next;
+	unsigned long i, f1, f2, j;
 
+	f1 = 1;
+	f2 = 2;
 	printf("1");
-	for (i = 1; i <= n; i++)
+	for (i = 1; i < 50; i++)
 	{
 		printf(", %ld", f2);
-		next = f1 + f2;
+		j = f1;
 		f1 = f2;
-		f2 = next;
+		f2 = j + f2;
 	}
 	printf("\n");
 }
