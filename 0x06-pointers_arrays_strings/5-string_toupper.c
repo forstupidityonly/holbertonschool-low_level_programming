@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * string_to upper - channge lower to upper
+  * string_toupper - channge lower to upper
   * @s: string
   * Return: prt to string
   */
@@ -10,9 +10,9 @@ char *string_toupper(char *s)
 
 	while (*ptr)
 	{
-		if (*ptr > 'a' && *ptr < 'z')
+		if (*ptr > 96 && *ptr < 123)
 			*ptr -= 32;
 		ptr++;
 	}
-	return s;
+	return (s);
 }
