@@ -1,6 +1,8 @@
 #include "holberton.h"
 /**
-  *
+  * leet - eleet
+  * @s: the string
+  * Return: answer
   */
 char *leet(char *s)
 {
