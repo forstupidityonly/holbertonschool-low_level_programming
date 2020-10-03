@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	int largest = -1;
 
-	while (num % 2 ==0)
+	while (num % 2 == 0)
 	{
 		largest = 2;
 		num = num / 2;
