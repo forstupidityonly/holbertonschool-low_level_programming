@@ -19,5 +19,4 @@ void main(void)
 			printf(", ");
 	}
 	printf("\n");
-
 }
