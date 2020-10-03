@@ -6,21 +6,18 @@
   */
 void main(void)
 {
-	unsigned long f1, f2, j;
-	int i;
-
-	f1 = 1;
-	f2 = 2;
-	printf("%ld, %ld, ", f1, f2);
-	for (i = 0; i < 50; i++)
+	long int a = 0, b = 1, c = 1;
+	long int i;
+	int upto = 50;
+	for (i = 1; i <= upto; i++)
 	{
-		j = f1 + f2;
-		f1 = f2;
-		f2 = j;
-		if (i == 50)
-			printf("%ld", f2);
-		else
-			printf("%ld, ", f2);
+		printf("%li", c);
+		a = b;
+		b = c;
+		c = a 1 + b;
+		if (i < 50)
+			printf(", ");
 	}
 	printf("\n");
+	return (0);
 }
