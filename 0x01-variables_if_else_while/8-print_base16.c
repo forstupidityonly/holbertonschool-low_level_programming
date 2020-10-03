@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
   * main - entry point
-  * Retunrn: 0
+  * Return: 0
   */
 int main(void)
 {
