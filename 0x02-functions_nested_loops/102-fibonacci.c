@@ -14,10 +14,10 @@ void main(void)
 		printf("%li", c);
 		a = b;
 		b = c;
-		c = a 1 + b;
+		c = a + b;
 		if (i < 50)
 			printf(", ");
 	}
 	printf("\n");
-	return (0);
+
 }
