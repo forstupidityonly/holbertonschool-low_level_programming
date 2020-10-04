@@ -5,16 +5,17 @@
   */
 void main(void)
 {
-	int i;
-	long a = 1, b = 2, c = 0;
+	unsigned long i, a, b, t;
 
-	printf("1, 2");
-	for (i = 1; i <= 48; i++)
+	a = 1;
+	b = 2;
+	printf("1");
+	for (i = 1; i < 50; i++)
 	{
-		c = a + b;
+		printf(", %ld", b);
+		t = a;
 		a = b;
-		b = c;
-		printf(", %d", r);
+		b = t + b;
 	}
-	putchar('\n');
+	printf("\n");
 }
