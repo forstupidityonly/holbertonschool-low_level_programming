@@ -13,8 +13,8 @@ void main(void)
 
 	while (b < 4000000)
 	{
-		if (b % a == 0)
-			c += a;
+		if (b % 2 == 0)
+			c += b;
 		c = a;
 		a = b;
 		b = c + b;
