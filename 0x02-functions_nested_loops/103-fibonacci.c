@@ -6,18 +6,18 @@
   */
 void main(void)
 {
-	long int sum = 0;
-	long int a = 1;
-	long int b = 2;
-	long int c = 0;
+	int a = 1;
+	int b = 2;
+	int c = 0;
+	int d = 2;
 
-	while (b < 4000000)
+	while (c < 4000000)
 	{
-		if (b % 2 == 0)
-			sum += b;
-		c = a;
+		c = a + b;
 		a = b;
-		b = c + b;
+		b = c;
+		if (c % 2 == 0)
+			d = c + d;
 	}
-	printf("li\n", sum);
+	printf("%d\n", d);
 }
