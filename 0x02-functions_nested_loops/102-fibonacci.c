@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
   * main - entry point
@@ -6,17 +5,16 @@
   */
 void main(void)
 {
-	long int a = 0, b = 1, c = 1;
-	long int i;
-	int upto = 50;
-	for (i = 1; i <= upto; i++)
+	int i;
+	long a = 1, b = 2, c = 0;
+
+	printf("1, 2");
+	for (i = 1; i <= 48; i++)
 	{
-		printf("%li", c);
+		c = a + b;
 		a = b;
 		b = c;
-		c = a + b;
-		if (i < 50)
-			printf(", ");
+		printf(", %d", r);
 	}
-	printf("\n");
+	putchar('\n');
 }
