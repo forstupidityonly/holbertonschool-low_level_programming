@@ -14,10 +14,10 @@ void main(void)
 	while (b < 4000000)
 	{
 		if (b % 2 == 0)
-			c += b;
+			sum += b;
 		c = a;
 		a = b;
 		b = c + b;
 	}
-	printf("li\n", c);
+	printf("li\n", sum);
 }
