@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * _memset fill n bites of mem @ s
+  * _memset - fill n bites of mem @ s
   * @s: the mem area
   * @b: the char
   * @n: num of bites
