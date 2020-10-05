@@ -4,6 +4,7 @@
   * @dest: the dest
   * @src: the src
   * @n: num od bites
+  * Return: aws
   */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
