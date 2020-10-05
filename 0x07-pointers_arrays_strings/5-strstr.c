@@ -3,7 +3,7 @@
   * _strstr - find string in string
   * @haystack: the string
   * @needle: string in a string
-  * Retrun: pointer to string in string
+  * Retur`:n: pointer to string in string
   */
 char *_strstr(char *haystack, char *needle)
 {
