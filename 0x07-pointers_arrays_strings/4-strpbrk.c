@@ -3,6 +3,7 @@
   * _strpbrk -searches a string for a set of bites
   * @s: the string
   * @accept: the bites
+  * Return: 0
   */
 char *_strpbrk(char *s, char *accept)
 {
