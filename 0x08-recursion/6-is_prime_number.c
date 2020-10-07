@@ -15,7 +15,7 @@ int helper_four(int n, int i)
 		return (helper_four(n, i - 1));
 }
 /**
-  * is_print_number - check prime
+  * is_prime_number - check prime
   * @n: the int
   * Return: yes
   */
