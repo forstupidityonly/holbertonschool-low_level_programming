@@ -1,6 +1,9 @@
 #include "holberton.h"
 /**
-  *
+  * _pow_recursion - power of
+  * @x: num
+  * @y: exponent
+  * Return: yes`:x
   */
 int _pow_recursion(int x, int y)
 {
