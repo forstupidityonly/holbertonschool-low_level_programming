@@ -1,5 +1,17 @@
 #include "holberton.h"
 /**
+  * _strlen - strlen
+  * @s: string
+  * Return: len
+  */
+int _strlen(char *s)
+{
+	if (s[0] != '\0')
+		return (1 + _strlen(s + 1));
+	else
+		return (0);
+}
+/**
   * helper_one - helper to print rev
   * @s: the string
   * @len: the length
@@ -24,7 +36,9 @@ void helper_one(char *s, int len)
 void _print_rev_recursion(char *s)
 {
 	int i = 0;
-	while (s[i])
-		i++;
+	char *c = s;
+
+	i = _strlen(c);
 	helper_one(s, i);
 }
+
