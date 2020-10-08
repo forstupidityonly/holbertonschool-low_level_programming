@@ -1,6 +1,9 @@
 #include "holberton.h"
 /**
-  *
+  * wildcmp - strcmp with wildcards
+  * @s1: string 1
+  * @s2: string 2
+  * Return: yes
   */
 int wildcmp(char *s1, char *s2)
 {
