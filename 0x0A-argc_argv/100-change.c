@@ -1,6 +1,8 @@
 #include "holberton.h"
 /**
-  *
+  * helper - to main
+  * @n: the int
+  * Return: yes
   */
 int helper(int n)
 {
@@ -34,7 +36,10 @@ int helper(int n)
 	return (num);
 }
 /**
-  *
+  * main - entry point
+  * @argc: num
+  * @argc: array
+  * Return: yes
   */
 int main (int argc, char **argv)
 {
