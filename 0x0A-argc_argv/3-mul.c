@@ -1,16 +1,21 @@
 #include "holberton.h"
 /**
   * main - entry point
+  * @argc: num
+  * @argv: arry
   * Return: 0
   */
 int main(int argc, char **argv)
 {
-	int i = 0;
-
-	while (argc--)
+	if (argc > 2)
 	{
-		printf("%s\n", argv[i]);
-		i++;
+		printf("%d\n", atoi(argv[1]) * aito(argv[2]));
+		return (0);
+	}
+	else if (argc < 3)
+	{
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
