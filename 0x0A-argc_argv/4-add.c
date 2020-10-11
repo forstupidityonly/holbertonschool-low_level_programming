@@ -1,6 +1,9 @@
 #include "holberton.h"
 /**
   * main -entry point
+  * @argc: num
+  * @argv: array
+  * Return: 0
   */
 int main(int argc, char **argv)
 {
