@@ -26,7 +26,7 @@ int helper(int n)
 	while ((n / 2) > 0)
 	{
 		num++;
-		n = n -2;
+		n = n - 2;
 	}
 	while ((n / 1) > 0)
 	{
@@ -38,10 +38,10 @@ int helper(int n)
 /**
   * main - entry point
   * @argc: num
-  * @argc: array
+  * @argv: array
   * Return: yes
   */
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int cents;
 
@@ -52,7 +52,7 @@ int main (int argc, char **argv)
 	}
 	cents = atoi(argv[1]);
 	if (cents < 0)
-		printf("0/n");
+		printf("0\n");
 	else
 		printf("%d\n", helper(cents));
 	return (0);
