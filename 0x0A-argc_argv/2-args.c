@@ -3,6 +3,7 @@
   * main - entry point
   * @argc: nim
   * @argv: **
+  * Return: yes
   */
 int main(int argc, char *argv[])
 {
