@@ -8,30 +8,30 @@ int helper(int n)
 {
 	int num = 0;
 
-	while (n / 25 > 0)
+	while ((n / 25) > 0)
 	{
 		num++;
-		n -= 25;
+		n = n - 25;
 	}
-	while (n / 10 > 0)
+	while ((n / 10) > 0)
 	{
 		num++;
-		n -= 10;
+		n = n - 10;
 	}
-	while (n / 5 > 0)
+	while ((n / 5) > 0)
 	{
 		num++;
-		n -= 5;
+		n = n - 5;
 	}
-	while (n / 2 > 0)
+	while ((n / 2) > 0)
 	{
 		num++;
-		n -= 2;
+		n = n -2;
 	}
-	while (n / 1 > 0)
+	while ((n / 1) > 0)
 	{
 		num++;
-		n -= 1;
+		n = n - 1;
 	}
 	return (num);
 }
