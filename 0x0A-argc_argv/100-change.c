@@ -44,9 +44,10 @@ int helper(int n)
 int main (int argc, char **argv)
 {
 	int cents;
+
 	if (argc != 2)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	cents = atoi(argv[1]);
