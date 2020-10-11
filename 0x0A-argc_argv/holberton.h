@@ -1,10 +1,6 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
-
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 #include <stdio.h>
 #include <stdlib.h>
-#include <inttypes.h>
-void myname(int argc, char *argv[]);
 int _putchar(char c);
-
-#endif
+#endif 
