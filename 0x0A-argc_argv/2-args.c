@@ -1,6 +1,8 @@
 #include "holberton.h"
 /**
-  *
+  * main - entry point
+  * @argc: nim
+  * @argv: **
   */
 int main(int argc, char *argv[])
 {
