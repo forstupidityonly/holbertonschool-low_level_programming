@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * _strlen_recursion - strlen
+  * _strlen - strlen
   * @s: string
   * Return: yes
   */
@@ -19,7 +19,10 @@ int _strlen(char *s)
 	return (0);
 }
 /**
-  *
+  * str_concat - cat two string
+  * @s1: 1st string
+  * @s2: 2nd string
+  * Return: yes
   */
 char *str_concat(char *s1, char *s2)
 {
