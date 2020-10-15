@@ -1,6 +1,9 @@
 #include "holberton.h"
 /**
-  *
+  * _calloc - malloc and fill
+  * @nmemb: size of data
+  * @size: size
+  * Return: yes
   */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
