@@ -1,13 +1,14 @@
 #include "holberton.h"
-/**                                                                              
- * array_range - make array of integers                                                      
- * @min: min                  
- * @max: max                                                             
- * Return: yes                                                                      
+/**
+ * array_range - make array of integers
+ * @min: min
+ * @max: max
+ * Return: yes
  */
 int *array_range(int min, int max)
 {
 	int *ptr, itr;
+
 	if (min > max)
 		return (NULL);
 	ptr = malloc(sizeof(int) * ((max - min) + 1));
