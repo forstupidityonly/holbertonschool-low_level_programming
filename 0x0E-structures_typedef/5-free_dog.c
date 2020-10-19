@@ -1,6 +1,6 @@
 #include "dog.h"
 /**
-  * free_dog: free dogs
+  * free_dog - free dogs
   * @d: the dok to be kilt
   * Return: nsw
   */
