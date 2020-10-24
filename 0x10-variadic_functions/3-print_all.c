@@ -6,6 +6,7 @@
   */
 void print_all(const char * const format, ...)
 {
+	char *string;
 	va_list name;
 	unsigned int i = 0;
 	int bianary;
@@ -28,7 +29,10 @@ void print_all(const char * const format, ...)
 					printf("%f", va_arg(name, double));
 					break;
 				case 's':
-					printf("%s", va_arg(name, char *));
+					string = va_arg(name, char *);
+					if (!string)
+						string = "(nil)";
+					printf("%s", string);
 					break;
 				default:
 					bianary = 0;
