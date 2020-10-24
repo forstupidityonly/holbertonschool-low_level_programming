@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
-  * pint_numbers - print num
+  * print_numbers - print num
   * @separator: string between nums
   * @n: num of args
   * Return: no

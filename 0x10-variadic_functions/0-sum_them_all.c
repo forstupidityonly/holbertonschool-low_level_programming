@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
   * sum_them_all - sum al the things
-  * @n: amount of args 
+  * @n: amount of args
   * @...: the args
   * Return: yes
   */
