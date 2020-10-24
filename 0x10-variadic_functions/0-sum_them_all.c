@@ -3,7 +3,6 @@
 /**
   * sum_them_all - sum al the things
   * @n: amount of args
-  * @...: the args
   * Return: yes
   */
 int sum_them_all(const unsigned int n, ...)
