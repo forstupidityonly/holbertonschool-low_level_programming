@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * add_nade_end - what u tink betty
+  * add_node_end - what u tink betty
   * @head: head
   * @str: string
   * Return: new node
