@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * sum_listsint - all data
+  * sum_listint - all data
   * @head: head
   * Return: sum or 0
   */
