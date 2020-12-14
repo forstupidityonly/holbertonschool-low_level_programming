@@ -1,4 +1,4 @@
-#inlcude "lists.h"
+#include "lists.h"
 /**
   * sum_dlistint - sum all the int
   * @head: head
