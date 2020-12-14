@@ -11,7 +11,7 @@ int count = 0;
 while (h)
 {
 h = h->next;
-count += 1;
+++count;
 }
 return (count);
 }
