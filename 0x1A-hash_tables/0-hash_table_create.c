@@ -7,7 +7,7 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	/*decelation of table*/
-	hash_table_t *table;
+	hash_table_t *table = NULL;
 
 	/*bogus size*/
 	if (!size)
