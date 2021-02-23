@@ -7,9 +7,10 @@ all : $(OBJ)
     $(CC) $(OBJ) -o $(NAME)
 clean :
     $(RM) *~ $(NAME)
-oclean : $(OBJ)
+oclean :
     $(RM) $(OBJ)
-fclean : $(OBJ) 
-    $(RM) *~ $(NAME) $(OBJ)
-re:
+fclean : 
+    $(RM
+    ) *~ $(NAME) $(OBJ)
+re : oclean $OBJ
     $(CC) $(OBJ) -o $(NAME)
