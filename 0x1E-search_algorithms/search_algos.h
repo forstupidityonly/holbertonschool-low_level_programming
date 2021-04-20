@@ -4,5 +4,7 @@
 
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
+int helper(int *array, int l, int r, int value);
+void print_now(int *array, int l, int r);
 
 #endif
