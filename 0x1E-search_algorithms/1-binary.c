@@ -8,38 +8,42 @@
   */
 int binary_search(int *array, size_t size, int value)
 {
-        long unsigned int left, mid, right;
+	unsigned long int left, mid, right;
 
-        right = size - 1;
-        left = 0;
-        if (!array)
-                return (-1);
-        while (left <= right)
-        {
-                print_now(array, left, right);
-                mid = (left + right) / 2;
-                if (array[mid] < value)
-                        left = mid + 1;
-                else if (array[mid] > value)
-                        right = mid - 1;
-                else if (array[mid] == value)
-                        return (mid);
-                else
-                        return (-1);
-        }
-        return (-1);
+	right = size - 1;
+	left = 0;
+	if (!array)
+		return (-1);
+	while (left <= right)
+	{
+		print_now(array, left, right);
+		mid = (left + right) / 2;
+		if (array[mid] < value)
+			left = mid + 1;
+		else if (array[mid] > value)
+			right = mid - 1;
+		else if (array[mid] == value)
+			return (mid);
+		else
+			return (-1);
+	}
+	return (-1);
 }
 /**
-  *
+  * print_now - helper
+  * @array: the array
+  * @left: left integer
+  * @right: right integer
+  * Return: void
   */
-void print_now(int *array, long unsigned int left, long unsigned int right)
+void print_now(int *array, unsigned long int left, unsigned long int right)
 {
-        printf("Searching in array: ");
-        for(; left <= right; left++)
-        {
-                if (left == right)
-                        printf("%d\n", array[left]);
-                else
-                        printf("%d, ", array[left]);
-        }
+	printf("Searching in array: ");
+	for (; left <= right; left++)
+	{
+		if (left == right)
+			printf("%d\n", array[left]);
+		else
+			printf("%d, ", array[left]);
+	}
 }
